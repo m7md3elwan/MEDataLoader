@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		28FDBD7CF1A3753264194F4F /* Pods_MEDataLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */; };
 		3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */; };
 		3EA1968C22FEEED200CAAD69 /* MEDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA1969F22FEF1AC00CAAD69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969C22FEF1AC00CAAD69 /* README.md */; };
+		3EA196A022FEF1AC00CAAD69 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969D22FEF1AC00CAAD69 /* LICENSE */; };
+		3EA196A122FEF1AC00CAAD69 /* MEDataLoader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */; };
 		701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		3EA1967F22FEEED100CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA1968422FEEED200CAAD69 /* MEDataLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDataLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1968B22FEEED200CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA1969C22FEF1AC00CAAD69 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EA1969D22FEF1AC00CAAD69 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MEDataLoader.podspec; sourceTree = "<group>"; };
 		6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.debug.xcconfig"; sourceTree = "<group>"; };
 		70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.release.xcconfig"; sourceTree = "<group>"; };
 		B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +67,7 @@
 		3EA1967122FEEED100CAAD69 = {
 			isa = PBXGroup;
 			children = (
+				3EA1969B22FEF19600CAAD69 /* Podspec Metadata */,
 				3EA1967D22FEEED100CAAD69 /* MEDataLoader */,
 				3EA1968822FEEED200CAAD69 /* MEDataLoaderTests */,
 				3EA1967C22FEEED100CAAD69 /* Products */,
@@ -135,6 +142,16 @@
 			path = "Support files";
 			sourceTree = "<group>";
 		};
+		3EA1969B22FEF19600CAAD69 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1969D22FEF1AC00CAAD69 /* LICENSE */,
+				3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */,
+				3EA1969C22FEF1AC00CAAD69 /* README.md */,
+			);
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
 		43CB0E2A9F8A20D776487AED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +160,6 @@
 				D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */,
 				DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -250,6 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA196A122FEF1AC00CAAD69 /* MEDataLoader.podspec in Resources */,
+				3EA196A022FEF1AC00CAAD69 /* LICENSE in Resources */,
+				3EA1969F22FEF1AC00CAAD69 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

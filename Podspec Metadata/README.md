@@ -1,0 +1,29 @@
+# MEDataLoader
+
+[![CI Status](https://img.shields.io/travis/m7md3elwan/MEDataLoader.svg?style=flat)](https://travis-ci.org/m7md3elwan/MEDataLoader)
+[![Version](https://img.shields.io/cocoapods/v/MEDataLoader.svg?style=flat)](https://cocoapods.org/pods/MEDataLoader)
+[![License](https://img.shields.io/cocoapods/l/MEDataLoader.svg?style=flat)](https://cocoapods.org/pods/MEDataLoader)
+[![Platform](https://img.shields.io/cocoapods/p/MEDataLoader.svg?style=flat)](https://cocoapods.org/pods/MEDataLoader)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+MEDataLoader is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'MEDataLoader'
+```
+
+## Author
+
+m7md3elwan, eng.m.elwan@gmail.com
+
+## License
+
+MEDataLoader is available under the MIT license. See the LICENSE file for more info.
