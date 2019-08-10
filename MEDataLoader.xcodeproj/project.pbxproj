@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */; };
-		3EA1968A22FEEED200CAAD69 /* MEDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1968922FEEED200CAAD69 /* MEDataLoaderTests.swift */; };
 		3EA1968C22FEEED200CAAD69 /* MEDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,7 +26,6 @@
 		3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEDataLoader.h; sourceTree = "<group>"; };
 		3EA1967F22FEEED100CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA1968422FEEED200CAAD69 /* MEDataLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDataLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EA1968922FEEED200CAAD69 /* MEDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDataLoaderTests.swift; sourceTree = "<group>"; };
 		3EA1968B22FEEED200CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +69,10 @@
 		3EA1967D22FEEED100CAAD69 /* MEDataLoader */ = {
 			isa = PBXGroup;
 			children = (
-				3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */,
-				3EA1967F22FEEED100CAAD69 /* Info.plist */,
+				3EA1969922FEF04C00CAAD69 /* Protocols */,
+				3EA1969722FEF03A00CAAD69 /* Models */,
+				3EA1969522FEF02300CAAD69 /* Components */,
+				3EA1969622FEF02B00CAAD69 /* Support files */,
 			);
 			path = MEDataLoader;
 			sourceTree = "<group>";
@@ -80,10 +80,47 @@
 		3EA1968822FEEED200CAAD69 /* MEDataLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				3EA1968922FEEED200CAAD69 /* MEDataLoaderTests.swift */,
-				3EA1968B22FEEED200CAAD69 /* Info.plist */,
+				3EA1969A22FEF05900CAAD69 /* Support files */,
 			);
 			path = MEDataLoaderTests;
+			sourceTree = "<group>";
+		};
+		3EA1969522FEF02300CAAD69 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3EA1969622FEF02B00CAAD69 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */,
+				3EA1967F22FEEED100CAAD69 /* Info.plist */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		3EA1969722FEF03A00CAAD69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EA1969922FEF04C00CAAD69 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3EA1969A22FEF05900CAAD69 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1968B22FEEED200CAAD69 /* Info.plist */,
+			);
+			path = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA1968A22FEEED200CAAD69 /* MEDataLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
