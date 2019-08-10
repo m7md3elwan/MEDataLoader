@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28FDBD7CF1A3753264194F4F /* Pods_MEDataLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */; };
 		3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */; };
 		3EA1968C22FEEED200CAAD69 /* MEDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,11 +24,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MEDataLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEDataLoader.h; sourceTree = "<group>"; };
 		3EA1967F22FEEED100CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA1968422FEEED200CAAD69 /* MEDataLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDataLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1968B22FEEED200CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.debug.xcconfig"; sourceTree = "<group>"; };
+		70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.release.xcconfig"; sourceTree = "<group>"; };
+		B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoaderTests.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoaderTests.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */,
+				28FDBD7CF1A3753264194F4F /* Pods_MEDataLoaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,8 @@
 				3EA1967D22FEEED100CAAD69 /* MEDataLoader */,
 				3EA1968822FEEED200CAAD69 /* MEDataLoaderTests */,
 				3EA1967C22FEEED100CAAD69 /* Products */,
+				43CB0E2A9F8A20D776487AED /* Pods */,
+				8458BA251CE7C8F87C80F981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +135,27 @@
 			path = "Support files";
 			sourceTree = "<group>";
 		};
+		43CB0E2A9F8A20D776487AED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */,
+				70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */,
+				D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */,
+				DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8458BA251CE7C8F87C80F981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */,
+				B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -141,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA1968F22FEEED200CAAD69 /* Build configuration list for PBXNativeTarget "MEDataLoader" */;
 			buildPhases = (
+				2632402EA05EC017B5C7BEE5 /* [CP] Check Pods Manifest.lock */,
 				3EA1967622FEEED100CAAD69 /* Headers */,
 				3EA1967722FEEED100CAAD69 /* Sources */,
 				3EA1967822FEEED100CAAD69 /* Frameworks */,
@@ -159,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA1969222FEEED200CAAD69 /* Build configuration list for PBXNativeTarget "MEDataLoaderTests" */;
 			buildPhases = (
+				6B105D6FC135532AB9BA897F /* [CP] Check Pods Manifest.lock */,
 				3EA1968022FEEED200CAAD69 /* Sources */,
 				3EA1968122FEEED200CAAD69 /* Frameworks */,
 				3EA1968222FEEED200CAAD69 /* Resources */,
+				9DCA436145B2B56F63CDB4A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +261,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2632402EA05EC017B5C7BEE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDataLoader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B105D6FC135532AB9BA897F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDataLoaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCA436145B2B56F63CDB4A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3EA1967722FEEED100CAAD69 /* Sources */ = {
@@ -376,6 +476,7 @@
 		};
 		3EA1969022FEEED200CAAD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +502,7 @@
 		};
 		3EA1969122FEEED200CAAD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -426,6 +528,7 @@
 		};
 		3EA1969322FEEED200CAAD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DRTN6B9Y6;
@@ -444,6 +547,7 @@
 		};
 		3EA1969422FEEED200CAAD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DRTN6B9Y6;
