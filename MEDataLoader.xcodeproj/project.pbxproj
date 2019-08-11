@@ -19,6 +19,11 @@
 		3EA196AB22FF33A900CAAD69 /* MECache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196AA22FF33A900CAAD69 /* MECache.swift */; };
 		3EA196AD22FF345200CAAD69 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA196AC22FF345200CAAD69 /* Media.xcassets */; };
 		3EA196AF22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196AE22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift */; };
+		3EA196B22300D61100CAAD69 /* MEDownloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B12300D61100CAAD69 /* MEDownloadable.swift */; };
+		3EA196B42300D63900CAAD69 /* MEDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */; };
+		3EA196B62300D64800CAAD69 /* MEDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */; };
+		3EA196B82300D68600CAAD69 /* MEDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B72300D68600CAAD69 /* MEDownloader.swift */; };
+		3EA196BB2300D6BB00CAAD69 /* MEDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */; };
 		701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +53,11 @@
 		3EA196AA22FF33A900CAAD69 /* MECache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECache.swift; sourceTree = "<group>"; };
 		3EA196AC22FF345200CAAD69 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3EA196AE22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDiscardableResultTests.swift; sourceTree = "<group>"; };
+		3EA196B12300D61100CAAD69 /* MEDownloadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadable.swift; sourceTree = "<group>"; };
+		3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadRequest.swift; sourceTree = "<group>"; };
+		3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadTask.swift; sourceTree = "<group>"; };
+		3EA196B72300D68600CAAD69 /* MEDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloader.swift; sourceTree = "<group>"; };
+		3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloaderTests.swift; sourceTree = "<group>"; };
 		6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.debug.xcconfig"; sourceTree = "<group>"; };
 		70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.release.xcconfig"; sourceTree = "<group>"; };
 		B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +121,7 @@
 		3EA1968822FEEED200CAAD69 /* MEDataLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				3EA196B92300D69E00CAAD69 /* MEDownloader */,
 				3EA196B022FF3F2B00CAAD69 /* MECache */,
 				3EA1969A22FEF05900CAAD69 /* Support files */,
 			);
@@ -121,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				3EA196AA22FF33A900CAAD69 /* MECache.swift */,
+				3EA196B72300D68600CAAD69 /* MEDownloader.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -138,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */,
+				3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */,
+				3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				3EA196A222FEF25E00CAAD69 /* MECachable.swift */,
+				3EA196B12300D61100CAAD69 /* MEDownloadable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -176,6 +191,14 @@
 				3EA196AE22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift */,
 			);
 			path = MECache;
+			sourceTree = "<group>";
+		};
+		3EA196B92300D69E00CAAD69 /* MEDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */,
+			);
+			path = MEDownloader;
 			sourceTree = "<group>";
 		};
 		43CB0E2A9F8A20D776487AED /* Pods */ = {
@@ -380,7 +403,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA196A722FEF2CC00CAAD69 /* MEDiscardableData.swift in Sources */,
+				3EA196B22300D61100CAAD69 /* MEDownloadable.swift in Sources */,
+				3EA196B62300D64800CAAD69 /* MEDownloadTask.swift in Sources */,
 				3EA196AB22FF33A900CAAD69 /* MECache.swift in Sources */,
+				3EA196B42300D63900CAAD69 /* MEDownloadRequest.swift in Sources */,
+				3EA196B82300D68600CAAD69 /* MEDownloader.swift in Sources */,
 				3EA196A322FEF25E00CAAD69 /* MECachable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA196A922FEF30800CAAD69 /* MECacheTests.swift in Sources */,
+				3EA196BB2300D6BB00CAAD69 /* MEDownloaderTests.swift in Sources */,
 				3EA196AF22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
