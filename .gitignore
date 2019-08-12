@@ -5,6 +5,7 @@ DerivedData/
 
 ## pods
 Pods/
+Podfile.lock
 
 ## userdata
 xcuserdata/
