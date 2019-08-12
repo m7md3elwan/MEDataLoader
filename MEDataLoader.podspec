@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MEDataLoader'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'MEDataLoader is an iOS library that allow loading & caching of data from a remote URL'
 
 # This description is used to generate tags and improve search results.
