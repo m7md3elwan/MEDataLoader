@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: MEDataLoader.xcworkspace
+scheme: MEDataLoader
+output_directory: reports
+ignore:
+  - MEDataLoaderTests/*
