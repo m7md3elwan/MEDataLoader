@@ -1,5 +1,5 @@
 coverage_service: cobertura_xml
-xcodeproj: MEDataLoader.xcworkspace
+xcodeproj: MEDataLoader.xcodeproj
 scheme: MEDataLoader
 output_directory: reports
 ignore:
