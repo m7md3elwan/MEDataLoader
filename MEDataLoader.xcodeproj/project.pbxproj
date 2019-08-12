@@ -3,13 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28FDBD7CF1A3753264194F4F /* Pods_MEDataLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */; };
 		3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */; };
-		3EA1968A22FEEED200CAAD69 /* MEDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1968922FEEED200CAAD69 /* MEDataLoaderTests.swift */; };
 		3EA1968C22FEEED200CAAD69 /* MEDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA1969F22FEF1AC00CAAD69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969C22FEF1AC00CAAD69 /* README.md */; };
+		3EA196A022FEF1AC00CAAD69 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969D22FEF1AC00CAAD69 /* LICENSE */; };
+		3EA196A122FEF1AC00CAAD69 /* MEDataLoader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */; };
+		3EA196A322FEF25E00CAAD69 /* MECachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196A222FEF25E00CAAD69 /* MECachable.swift */; };
+		3EA196A722FEF2CC00CAAD69 /* MEDiscardableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */; };
+		3EA196A922FEF30800CAAD69 /* MECacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196A822FEF30800CAAD69 /* MECacheTests.swift */; };
+		3EA196AB22FF33A900CAAD69 /* MECache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196AA22FF33A900CAAD69 /* MECache.swift */; };
+		3EA196AD22FF345200CAAD69 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA196AC22FF345200CAAD69 /* Media.xcassets */; };
+		3EA196AF22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196AE22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift */; };
+		3EA196B22300D61100CAAD69 /* MEDownloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B12300D61100CAAD69 /* MEDownloadable.swift */; };
+		3EA196B42300D63900CAAD69 /* MEDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */; };
+		3EA196B62300D64800CAAD69 /* MEDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */; };
+		3EA196B82300D68600CAAD69 /* MEDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B72300D68600CAAD69 /* MEDownloader.swift */; };
+		3EA196BB2300D6BB00CAAD69 /* MEDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */; };
+		701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +38,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MEDataLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEDataLoader.h; sourceTree = "<group>"; };
 		3EA1967F22FEEED100CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA1968422FEEED200CAAD69 /* MEDataLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDataLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EA1968922FEEED200CAAD69 /* MEDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDataLoaderTests.swift; sourceTree = "<group>"; };
 		3EA1968B22FEEED200CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA1969C22FEF1AC00CAAD69 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EA1969D22FEF1AC00CAAD69 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MEDataLoader.podspec; sourceTree = "<group>"; };
+		3EA196A222FEF25E00CAAD69 /* MECachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECachable.swift; sourceTree = "<group>"; };
+		3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDiscardableData.swift; sourceTree = "<group>"; };
+		3EA196A822FEF30800CAAD69 /* MECacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECacheTests.swift; sourceTree = "<group>"; };
+		3EA196AA22FF33A900CAAD69 /* MECache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECache.swift; sourceTree = "<group>"; };
+		3EA196AC22FF345200CAAD69 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		3EA196AE22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDiscardableResultTests.swift; sourceTree = "<group>"; };
+		3EA196B12300D61100CAAD69 /* MEDownloadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadable.swift; sourceTree = "<group>"; };
+		3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadRequest.swift; sourceTree = "<group>"; };
+		3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadTask.swift; sourceTree = "<group>"; };
+		3EA196B72300D68600CAAD69 /* MEDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloader.swift; sourceTree = "<group>"; };
+		3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloaderTests.swift; sourceTree = "<group>"; };
+		6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.debug.xcconfig"; sourceTree = "<group>"; };
+		70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.release.xcconfig"; sourceTree = "<group>"; };
+		B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoaderTests.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoaderTests.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */,
+				28FDBD7CF1A3753264194F4F /* Pods_MEDataLoaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +89,12 @@
 		3EA1967122FEEED100CAAD69 = {
 			isa = PBXGroup;
 			children = (
+				3EA1969B22FEF19600CAAD69 /* Podspec Metadata */,
 				3EA1967D22FEEED100CAAD69 /* MEDataLoader */,
 				3EA1968822FEEED200CAAD69 /* MEDataLoaderTests */,
 				3EA1967C22FEEED100CAAD69 /* Products */,
+				43CB0E2A9F8A20D776487AED /* Pods */,
+				8458BA251CE7C8F87C80F981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +110,10 @@
 		3EA1967D22FEEED100CAAD69 /* MEDataLoader */ = {
 			isa = PBXGroup;
 			children = (
-				3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */,
-				3EA1967F22FEEED100CAAD69 /* Info.plist */,
+				3EA1969922FEF04C00CAAD69 /* Protocols */,
+				3EA1969722FEF03A00CAAD69 /* Models */,
+				3EA1969522FEF02300CAAD69 /* Components */,
+				3EA1969622FEF02B00CAAD69 /* Support files */,
 			);
 			path = MEDataLoader;
 			sourceTree = "<group>";
@@ -80,10 +121,104 @@
 		3EA1968822FEEED200CAAD69 /* MEDataLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				3EA1968922FEEED200CAAD69 /* MEDataLoaderTests.swift */,
-				3EA1968B22FEEED200CAAD69 /* Info.plist */,
+				3EA196B92300D69E00CAAD69 /* MEDownloader */,
+				3EA196B022FF3F2B00CAAD69 /* MECache */,
+				3EA1969A22FEF05900CAAD69 /* Support files */,
 			);
 			path = MEDataLoaderTests;
+			sourceTree = "<group>";
+		};
+		3EA1969522FEF02300CAAD69 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3EA196AA22FF33A900CAAD69 /* MECache.swift */,
+				3EA196B72300D68600CAAD69 /* MEDownloader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3EA1969622FEF02B00CAAD69 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */,
+				3EA1967F22FEEED100CAAD69 /* Info.plist */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		3EA1969722FEF03A00CAAD69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */,
+				3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */,
+				3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EA1969922FEF04C00CAAD69 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3EA196A222FEF25E00CAAD69 /* MECachable.swift */,
+				3EA196B12300D61100CAAD69 /* MEDownloadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3EA1969A22FEF05900CAAD69 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1968B22FEEED200CAAD69 /* Info.plist */,
+				3EA196AC22FF345200CAAD69 /* Media.xcassets */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		3EA1969B22FEF19600CAAD69 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3EA1969D22FEF1AC00CAAD69 /* LICENSE */,
+				3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */,
+				3EA1969C22FEF1AC00CAAD69 /* README.md */,
+			);
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		3EA196B022FF3F2B00CAAD69 /* MECache */ = {
+			isa = PBXGroup;
+			children = (
+				3EA196A822FEF30800CAAD69 /* MECacheTests.swift */,
+				3EA196AE22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift */,
+			);
+			path = MECache;
+			sourceTree = "<group>";
+		};
+		3EA196B92300D69E00CAAD69 /* MEDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */,
+			);
+			path = MEDownloader;
+			sourceTree = "<group>";
+		};
+		43CB0E2A9F8A20D776487AED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */,
+				70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */,
+				D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */,
+				DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8458BA251CE7C8F87C80F981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */,
+				B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA1968F22FEEED200CAAD69 /* Build configuration list for PBXNativeTarget "MEDataLoader" */;
 			buildPhases = (
+				2632402EA05EC017B5C7BEE5 /* [CP] Check Pods Manifest.lock */,
 				3EA1967622FEEED100CAAD69 /* Headers */,
 				3EA1967722FEEED100CAAD69 /* Sources */,
 				3EA1967822FEEED100CAAD69 /* Frameworks */,
@@ -122,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA1969222FEEED200CAAD69 /* Build configuration list for PBXNativeTarget "MEDataLoaderTests" */;
 			buildPhases = (
+				6B105D6FC135532AB9BA897F /* [CP] Check Pods Manifest.lock */,
 				3EA1968022FEEED200CAAD69 /* Sources */,
 				3EA1968122FEEED200CAAD69 /* Frameworks */,
 				3EA1968222FEEED200CAAD69 /* Resources */,
+				9DCA436145B2B56F63CDB4A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,9 +286,11 @@
 				TargetAttributes = {
 					3EA1967A22FEEED100CAAD69 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					3EA1968322FEEED200CAAD69 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -177,6 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA196A122FEF1AC00CAAD69 /* MEDataLoader.podspec in Resources */,
+				3EA196A022FEF1AC00CAAD69 /* LICENSE in Resources */,
+				3EA1969F22FEF1AC00CAAD69 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,16 +327,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA196AD22FF345200CAAD69 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2632402EA05EC017B5C7BEE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDataLoader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B105D6FC135532AB9BA897F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDataLoaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCA436145B2B56F63CDB4A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDataLoaderTests/Pods-MEDataLoaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3EA1967722FEEED100CAAD69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA196A722FEF2CC00CAAD69 /* MEDiscardableData.swift in Sources */,
+				3EA196B22300D61100CAAD69 /* MEDownloadable.swift in Sources */,
+				3EA196B62300D64800CAAD69 /* MEDownloadTask.swift in Sources */,
+				3EA196AB22FF33A900CAAD69 /* MECache.swift in Sources */,
+				3EA196B42300D63900CAAD69 /* MEDownloadRequest.swift in Sources */,
+				3EA196B82300D68600CAAD69 /* MEDownloader.swift in Sources */,
+				3EA196A322FEF25E00CAAD69 /* MECachable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA1968A22FEEED200CAAD69 /* MEDataLoaderTests.swift in Sources */,
+				3EA196A922FEF30800CAAD69 /* MECacheTests.swift in Sources */,
+				3EA196BB2300D6BB00CAAD69 /* MEDownloaderTests.swift in Sources */,
+				3EA196AF22FF3F1E00CAAD69 /* MEDiscardableResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +557,9 @@
 		};
 		3EA1969022FEEED200CAAD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,7 +567,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MEDataLoader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MEDataLoader/Support files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,6 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Elwan.MEDataLoader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +585,9 @@
 		};
 		3EA1969122FEEED200CAAD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,7 +595,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MEDataLoader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MEDataLoader/Support files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -390,10 +612,13 @@
 		};
 		3EA1969322FEEED200CAAD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13AB87BE97AFC04F2E60298 /* Pods-MEDataLoaderTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DRTN6B9Y6;
-				INFOPLIST_FILE = MEDataLoaderTests/Info.plist;
+				INFOPLIST_FILE = "MEDataLoaderTests/Support files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,6 +626,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Elwan.MEDataLoaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,10 +634,13 @@
 		};
 		3EA1969422FEEED200CAAD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB807150312528D6A7FD30A2 /* Pods-MEDataLoaderTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DRTN6B9Y6;
-				INFOPLIST_FILE = MEDataLoaderTests/Info.plist;
+				INFOPLIST_FILE = "MEDataLoaderTests/Support files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
