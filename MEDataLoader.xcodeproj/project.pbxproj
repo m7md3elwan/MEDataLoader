@@ -10,9 +10,6 @@
 		28FDBD7CF1A3753264194F4F /* Pods_MEDataLoaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */; };
 		3EA1968522FEEED200CAAD69 /* MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA1967B22FEEED100CAAD69 /* MEDataLoader.framework */; };
 		3EA1968C22FEEED200CAAD69 /* MEDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA1967E22FEEED100CAAD69 /* MEDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EA1969F22FEF1AC00CAAD69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969C22FEF1AC00CAAD69 /* README.md */; };
-		3EA196A022FEF1AC00CAAD69 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969D22FEF1AC00CAAD69 /* LICENSE */; };
-		3EA196A122FEF1AC00CAAD69 /* MEDataLoader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */; };
 		3EA196A322FEF25E00CAAD69 /* MECachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196A222FEF25E00CAAD69 /* MECachable.swift */; };
 		3EA196A722FEF2CC00CAAD69 /* MEDiscardableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */; };
 		3EA196A922FEF30800CAAD69 /* MECacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196A822FEF30800CAAD69 /* MECacheTests.swift */; };
@@ -24,6 +21,13 @@
 		3EA196B62300D64800CAAD69 /* MEDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */; };
 		3EA196B82300D68600CAAD69 /* MEDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196B72300D68600CAAD69 /* MEDownloader.swift */; };
 		3EA196BB2300D6BB00CAAD69 /* MEDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */; };
+		3EA196BF2300E35000CAAD69 /* DataFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196BE2300E35000CAAD69 /* DataFetchable.swift */; };
+		3EA196C12300E36100CAAD69 /* ImageFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196C02300E36100CAAD69 /* ImageFetchable.swift */; };
+		3EA196C32300E39F00CAAD69 /* MEDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196C22300E39F00CAAD69 /* MEDataLoader.swift */; };
+		3EA196C52300E3F300CAAD69 /* MEResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA196C42300E3F300CAAD69 /* MEResult.swift */; };
+		3ED82A882300F2860056003A /* MEDataLoader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3ED82A852300F2860056003A /* MEDataLoader.podspec */; };
+		3ED82A892300F2860056003A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3ED82A862300F2860056003A /* README.md */; };
+		3ED82A8A2300F2860056003A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3ED82A872300F2860056003A /* LICENSE */; };
 		701FACDC7487A149720A9E9C /* Pods_MEDataLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4993583326BB41CD45E55 /* Pods_MEDataLoader.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +48,6 @@
 		3EA1967F22FEEED100CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA1968422FEEED200CAAD69 /* MEDataLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDataLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1968B22FEEED200CAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EA1969C22FEF1AC00CAAD69 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3EA1969D22FEF1AC00CAAD69 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MEDataLoader.podspec; sourceTree = "<group>"; };
 		3EA196A222FEF25E00CAAD69 /* MECachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECachable.swift; sourceTree = "<group>"; };
 		3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDiscardableData.swift; sourceTree = "<group>"; };
 		3EA196A822FEF30800CAAD69 /* MECacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MECacheTests.swift; sourceTree = "<group>"; };
@@ -58,6 +59,13 @@
 		3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloadTask.swift; sourceTree = "<group>"; };
 		3EA196B72300D68600CAAD69 /* MEDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloader.swift; sourceTree = "<group>"; };
 		3EA196BA2300D6BB00CAAD69 /* MEDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDownloaderTests.swift; sourceTree = "<group>"; };
+		3EA196BE2300E35000CAAD69 /* DataFetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetchable.swift; sourceTree = "<group>"; };
+		3EA196C02300E36100CAAD69 /* ImageFetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetchable.swift; sourceTree = "<group>"; };
+		3EA196C22300E39F00CAAD69 /* MEDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDataLoader.swift; sourceTree = "<group>"; };
+		3EA196C42300E3F300CAAD69 /* MEResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEResult.swift; sourceTree = "<group>"; };
+		3ED82A852300F2860056003A /* MEDataLoader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MEDataLoader.podspec; sourceTree = SOURCE_ROOT; };
+		3ED82A862300F2860056003A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3ED82A872300F2860056003A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		6C608645AA42AF3143E08CA1 /* Pods-MEDataLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.debug.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.debug.xcconfig"; sourceTree = "<group>"; };
 		70F229B571A364DB06975B11 /* Pods-MEDataLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDataLoader.release.xcconfig"; path = "Target Support Files/Pods-MEDataLoader/Pods-MEDataLoader.release.xcconfig"; sourceTree = "<group>"; };
 		B7B6FE3776C9CC31A7C7E5FC /* Pods_MEDataLoaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDataLoaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +141,7 @@
 			children = (
 				3EA196AA22FF33A900CAAD69 /* MECache.swift */,
 				3EA196B72300D68600CAAD69 /* MEDownloader.swift */,
+				3EA196C22300E39F00CAAD69 /* MEDataLoader.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -152,6 +161,7 @@
 				3EA196A622FEF2CC00CAAD69 /* MEDiscardableData.swift */,
 				3EA196B32300D63900CAAD69 /* MEDownloadRequest.swift */,
 				3EA196B52300D64800CAAD69 /* MEDownloadTask.swift */,
+				3EA196C42300E3F300CAAD69 /* MEResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 			children = (
 				3EA196A222FEF25E00CAAD69 /* MECachable.swift */,
 				3EA196B12300D61100CAAD69 /* MEDownloadable.swift */,
+				3EA196BE2300E35000CAAD69 /* DataFetchable.swift */,
+				3EA196C02300E36100CAAD69 /* ImageFetchable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -177,9 +189,9 @@
 		3EA1969B22FEF19600CAAD69 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3EA1969D22FEF1AC00CAAD69 /* LICENSE */,
-				3EA1969E22FEF1AC00CAAD69 /* MEDataLoader.podspec */,
-				3EA1969C22FEF1AC00CAAD69 /* README.md */,
+				3ED82A872300F2860056003A /* LICENSE */,
+				3ED82A852300F2860056003A /* MEDataLoader.podspec */,
+				3ED82A862300F2860056003A /* README.md */,
 			);
 			path = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -317,9 +329,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA196A122FEF1AC00CAAD69 /* MEDataLoader.podspec in Resources */,
-				3EA196A022FEF1AC00CAAD69 /* LICENSE in Resources */,
-				3EA1969F22FEF1AC00CAAD69 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +336,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED82A892300F2860056003A /* README.md in Resources */,
 				3EA196AD22FF345200CAAD69 /* Media.xcassets in Resources */,
+				3ED82A8A2300F2860056003A /* LICENSE in Resources */,
+				3ED82A882300F2860056003A /* MEDataLoader.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,13 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA196C12300E36100CAAD69 /* ImageFetchable.swift in Sources */,
 				3EA196A722FEF2CC00CAAD69 /* MEDiscardableData.swift in Sources */,
 				3EA196B22300D61100CAAD69 /* MEDownloadable.swift in Sources */,
 				3EA196B62300D64800CAAD69 /* MEDownloadTask.swift in Sources */,
+				3EA196C32300E39F00CAAD69 /* MEDataLoader.swift in Sources */,
 				3EA196AB22FF33A900CAAD69 /* MECache.swift in Sources */,
 				3EA196B42300D63900CAAD69 /* MEDownloadRequest.swift in Sources */,
 				3EA196B82300D68600CAAD69 /* MEDownloader.swift in Sources */,
+				3EA196BF2300E35000CAAD69 /* DataFetchable.swift in Sources */,
 				3EA196A322FEF25E00CAAD69 /* MECachable.swift in Sources */,
+				3EA196C52300E3F300CAAD69 /* MEResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
