@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/MEDataLoader.svg?style=flat)](https://cocoapods.org/pods/MEDataLoader)
 [![Platform](https://img.shields.io/cocoapods/p/MEDataLoader.svg?style=flat)](https://cocoapods.org/pods/MEDataLoader)
 
-## Example
+MEDataLoader is an iOS library that allow loading & caching of data from a remote URL
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Description
 
-## Requirements
+MEDataLoader is an iOS library that allow loading & caching of data from a remote Url
+It consists of 2 main components:
+- MEDownloader: can load Data from a remote Url that don't duplicate multiple requests for the same Url, request can be cancelled without affecting other requests.
+- MECache: caches Any object with a cache limit.
 
 ## Installation
 
